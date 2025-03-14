@@ -162,7 +162,7 @@ namespace midi_sequencer.src.service
 
         private void PlaybackThread() // Поток воспроизведения
         {
-            Thread.Sleep(10); // Этот пиздец убрать отсюда нахуй
+            Thread.Sleep(10);
             VarsReset();
 
             while (playbackState != PlaybackStates.Closed) // Основной цикл, исполняется до закрытия потока
