@@ -19,11 +19,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="icon.png" />
+    <PackageReference Include="NAudio" Version="2.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NAudio" Version="2.1.0" />
+    <Folder Include="Properties\" />
   </ItemGroup>
 
 </Project>
